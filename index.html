@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkPay - Referral Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">Link<span>Pay</span></a>
+    <span class="demo">DEMO WEBSITE</span>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="tag">REFER • SHARE • EARN (DEMO)</div>
+      <h1>Share Your Link.<br><span>Explore Rewards.</span></h1>
+      <p>अपना रेफरल लिंक शेयर करें और डेमो डैशबोर्ड में रेफरल रिकॉर्ड देखें। यह वास्तविक भुगतान सेवा नहीं है।</p>
+      <button id="shareBtn" class="primary">अपना लिंक शेयर करें ↗</button>
+    </section>
+
+    <section class="stats">
+      <article class="stat">
+        <p>Demo Referrals</p>
+        <h2 id="referrals">0</h2>
+      </article>
+      <article class="stat">
+        <p>Demo Reward</p>
+        <h2 id="reward">₹0</h2>
+      </article>
+      <article class="stat">
+        <p>Account Status</p>
+        <h2 class="status">Demo</h2>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Your Referral Link</h2>
+      <p>यह लिंक केवल वेबसाइट का डेमो दिखाने के लिए है।</p>
+      <div class="linkrow">
+        <input id="refLink" readonly aria-label="Demo referral link">
+        <button id="copyBtn" class="secondary">Copy</button>
+      </div>
+      <p id="message" class="message" aria-live="polite"></p>
+    </section>
+
+    <section class="panel">
+      <div class="panelhead">
+        <h2>Referral Activity</h2>
+        <button id="resetBtn" class="reset">Reset Demo</button>
+      </div>
+      <div id="activity" class="activity">
+        <p class="empty">अभी कोई डेमो गतिविधि नहीं है।</p>
+      </div>
+      <button id="demoBtn" class="primary full">+ Add Demo Referral</button>
+      <p class="note">केवल परीक्षण के लिए। इससे किसी को असली पैसे नहीं मिलते।</p>
+    </section>
+
+    <section class="panel info">
+      <h2>How it works</h2>
+      <p>1. अपना डेमो लिंक कॉपी करें।</p>
+      <p>2. Demo Referral बटन से नमूना रिकॉर्ड जोड़ें।</p>
+      <p>3. Referral count और demo reward का बदलाव देखें।</p>
+    </section>
+  </main>
+
+  <footer>© 2026 LinkPay · Demo Project · No real money or payouts</footer>
+  <script src="script.js"></script>
+</body>
+</html>
