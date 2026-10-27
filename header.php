@@ -1,3 +1,0 @@
-<?php require_once __DIR__ . '/config.php'; ?>
-<!doctype html><html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>LinkPay — Refer & Earn</title><link rel="stylesheet" href="style.css"></head><body>
-<header class="top"><a class="brand" href="index.php">🔗 Link<span>Pay</span></a><nav class="nav"><a href="index.php">Home</a><a href="index.php#how">Earn Money</a><?php if(logged_in()): ?><a href="dashboard.php">Dashboard</a><a href="logout.php">Logout</a><?php else: ?><a href="login.php">Login</a><a href="register.php">Register</a><?php endif; ?></nav><a class="btn" href="<?= logged_in() ? 'dashboard.php' : 'register.php' ?>"><?= logged_in() ? 'Dashboard' : 'Get Started' ?></a></header>
