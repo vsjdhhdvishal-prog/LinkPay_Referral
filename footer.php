@@ -1,1 +1,0 @@
-<footer class="footer">LinkPay Demo • Rewards are pending until verified. No guaranteed earnings.</footer></body></html>
